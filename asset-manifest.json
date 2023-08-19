@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.073c9b0a.css",
-    "main.js": "/test/static/js/main.be7df968.js",
+    "main.css": "/test/static/css/main.f51ca006.css",
+    "main.js": "/test/static/js/main.7738c25e.js",
     "static/js/787.0c3f432a.chunk.js": "/test/static/js/787.0c3f432a.chunk.js",
+    "static/media/kai_logo.png": "/test/static/media/kai_logo.413338c2a2eac2b698e0.png",
     "index.html": "/test/index.html",
-    "main.073c9b0a.css.map": "/test/static/css/main.073c9b0a.css.map",
-    "main.be7df968.js.map": "/test/static/js/main.be7df968.js.map",
+    "main.f51ca006.css.map": "/test/static/css/main.f51ca006.css.map",
+    "main.7738c25e.js.map": "/test/static/js/main.7738c25e.js.map",
     "787.0c3f432a.chunk.js.map": "/test/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.be7df968.js"
+    "static/css/main.f51ca006.css",
+    "static/js/main.7738c25e.js"
   ]
 }
