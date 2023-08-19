@@ -3,7 +3,7 @@ import LogoS from '../assets/images/kai_logo.png'
 import { useState } from 'react';
 import { HiX} from 'react-icons/hi';
 import {FaBars} from 'react-icons/fa'
-import { NavLink} from "react-router-dom"
+import { Link, NavLink} from "react-router-dom"
 
 const Navbar = () => {
         const [show, setShow] = useState(false);
@@ -14,8 +14,10 @@ const Navbar = () => {
     
         return(
             <div className='nav-bar'>
-                <img src={LogoS} alt="logo" />
-
+                <Link className='logo' to='/'>
+                    <img src={LogoS} alt="logo" />
+                </Link>
+                
                 <div className="nav-items">
                     <NavLink to='/'>
                         <h1>Home</h1>
