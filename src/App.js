@@ -1,17 +1,17 @@
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Routes, Route} from "react-router-dom"
+import { HashRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home/>} ></Route>
           <Route path='/navbar' element={<Navbar/>} ></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );
